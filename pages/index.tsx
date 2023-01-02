@@ -58,6 +58,11 @@ export default function Home() {
                   About
                 </button>
               </Link>
+              <Link href="/contact">
+                <button className={styles.button} >
+                  Contact
+                </button>
+              </Link>
             </div>
           </div>
         </div>

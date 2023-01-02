@@ -4,11 +4,25 @@
   background-position: center;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .hometext {
   color: white;
   font-size: 42px;
+  font-family: "Courier New", monospace;
+}
+
+@media (max-width: 800px) {
+  .hometext {
+    font-size: 32px;
+  }
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
   font-family: "Courier New", monospace;
 }
 
@@ -42,7 +56,7 @@
 }
 
 .buttons {
-  width: 10%;
+  min-width: 40px;
   padding: 20px;
 }
 
@@ -63,4 +77,10 @@
 .button:hover {
   background-color: white;
   color: black;
+}
+
+.link {
+  color: inherit;
+  border-bottom: 1px solid white;
+  text-decoration: none;
 }
