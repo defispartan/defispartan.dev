@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className={styles.cover}>
             <div className={styles.background} />
-            <Image src="/bg.webp" fill style={{ objectFit: 'cover' }} alt="Background" />
+            <Image src="/bg.webp" fill style={{ objectFit: 'cover' }} alt="Background" priority />
 
             <div
                 className={styles.rightpanel}
