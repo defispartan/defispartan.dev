@@ -119,6 +119,11 @@
   margin-top: 3rem;
 }
 
+.iconButtonImage {
+  width: auto;
+  height: auto;
+}
+
 .iconButton {
   width: 64px;
   height: 64px;
