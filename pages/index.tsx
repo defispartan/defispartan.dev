@@ -9,7 +9,7 @@ const App = () => {
         <meta name="description" content="Homepage of DeFiSpartan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preload" as="image" href="/bg.wp" type="image/webp" />
+        <link rel="preload" as="image" href="/bg.webp" type="image/webp" />
 
         {/* Open Graph / Social Media Metadata */}
         <meta property="og:title" content="defispartan.dev" />
