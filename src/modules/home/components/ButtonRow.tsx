@@ -41,7 +41,7 @@ const ButtonRow = () => {
             </button>
 
             <button
-                onClick={() => handleClick('mailto:defispartan@email.com')}
+                onClick={() => handleClick('mailto:defispartan@gmail.com')}
                 className={`${styles.iconButton} ${styles.email}`}
             >
                 <Image src='/email.svg' alt='Email' width={24} height={16} />
