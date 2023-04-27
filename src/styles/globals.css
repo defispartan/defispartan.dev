@@ -36,8 +36,8 @@ img {
 
 @font-face {
   font-family: "FolkPro";
-  src: url("/fonts/FolkPro.woff2") format("woff2"),
-    url("/fonts/FolkPro.woff") format("woff");
+  src: url("/FolkPro.woff2") format("woff2"),
+    url("/FolkPro.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
