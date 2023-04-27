@@ -10,6 +10,9 @@
   .hometext {
     font-size: 32px;
   }
+  #cursor {
+    margin-left: "-5px";
+  }
 }
 
 .text {
