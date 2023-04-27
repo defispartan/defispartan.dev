@@ -43,12 +43,13 @@ const TextWriter = () => {
                 alignItems: "center",
             }}
         >
-            <div id="text" className={styles.hometext} style={{ lineHeight: '1' }}>
+            <div id="text" className={styles.hometext}>
                 {text}
                 <span
                     style={{
                         visibility: cursorVisible ? "visible" : "hidden",
                         marginLeft: "-7px",
+                        lineHeight: '1'
                     }}
                 >
                     |

@@ -3,6 +3,7 @@
   font-size: 48px;
   font-family: "FolkPro", monospace;
   padding-left: 7px;
+  line-height: 1;
 }
 
 @media (max-width: 800px) {
