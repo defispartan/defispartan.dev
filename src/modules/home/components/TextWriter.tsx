@@ -48,11 +48,12 @@ const TextWriter = () => {
                 <span
                     style={{
                         visibility: cursorVisible ? "visible" : "hidden",
-                        marginLeft: "-7px"
+                        marginLeft: "-7px",
                     }}
                 >
                     |
                 </span>
+
             </div>
         </div>
     );

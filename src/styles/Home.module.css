@@ -16,6 +16,7 @@
   font-size: 24px;
   padding: 10px;
   font-family: "FolkPro", monospace;
+  display: inline-flex;
 }
 
 .content {
@@ -78,10 +79,10 @@
 }
 
 .background {
+  background: linear-gradient(27deg, #90ee90, #18453b, #013220);
   background-size: 200% 200%;
   position: fixed;
   z-index: -1;
-  background: linear-gradient(27deg, #90ee90, #18453b, #013220);
   animation: gradient 12s ease infinite;
   height: 100vh;
   width: 100vw;
