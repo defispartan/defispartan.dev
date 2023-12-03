@@ -123,6 +123,13 @@
   margin-top: 3rem;
 }
 
+.galleryRow {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 .iconButtonImage {
   width: auto;
   height: auto;
@@ -139,6 +146,11 @@
   cursor: pointer;
   background-color: white;
   transition: all 0.3s ease;
+}
+
+.galleryButton {
+  width: 128px;
+  height: 128px;
 }
 
 .iconButton:hover {
@@ -158,6 +170,10 @@
   .iconButton {
     width: 48px;
     height: 48px;
+  }
+  .galleryButton {
+    width: 64px;
+    height: 64px;
   }
 }
 
