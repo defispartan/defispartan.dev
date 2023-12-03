@@ -149,8 +149,8 @@
 }
 
 .galleryButton {
-  width: 128px;
-  height: 128px;
+  width: 80px;
+  height: 80px;
 }
 
 .iconButton:hover {
@@ -172,8 +172,8 @@
     height: 48px;
   }
   .galleryButton {
-    width: 64px;
-    height: 64px;
+    width: 55px;
+    height: 55px;
   }
 }
 
