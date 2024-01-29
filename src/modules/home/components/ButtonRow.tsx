@@ -14,7 +14,7 @@ const ButtonRow = () => {
     <div className={styles.iconRow}>
       <button
         onClick={() => handleClick("https://github.com/defispartan")}
-        className={`${styles.iconButton} ${styles.github}`}
+        className={`${styles.iconButton} ${styles.github} ${styles.iconButtonSmall}`}
       >
         <Image
           src="/github.svg"
@@ -70,6 +70,19 @@ const ButtonRow = () => {
       >
         <Image
           src="/email.svg"
+          alt="Email"
+          width={32}
+          height={32}
+          className={styles.iconButtonImage}
+        />
+      </button>
+
+      <button
+        onClick={() => handleClick("https://twitch.tv/defispartan")}
+        className={`${styles.iconButton} ${styles.twitch}`}
+      >
+        <Image
+          src="/twitch.webp"
           alt="Email"
           width={32}
           height={32}
