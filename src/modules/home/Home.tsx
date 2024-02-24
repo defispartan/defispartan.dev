@@ -25,7 +25,7 @@ const Home = () => {
       <div className={styles.rightpanel}>
         <TextWriter />
         <ButtonRow />
-        <Gallery />
+        {/*       <Gallery /> */}
       </div>
 
       {/* 

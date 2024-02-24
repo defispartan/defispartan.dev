@@ -29,7 +29,7 @@ const Gallery = () => {
     {
       title: "Hello World Open Action",
       description: "Contract and UI template for Lens open action",
-      link: "https://github.com/defispartan/hello-world-open-action",
+      link: "https://github.com/defispartan/lens-hello-world-open-action",
     },
     {
       title: "mylenny.xyz",
