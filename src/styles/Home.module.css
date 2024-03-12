@@ -123,6 +123,14 @@
   margin-top: 3rem;
 }
 
+.iconRowLower {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin-top: 3rem;
+}
+
 .galleryContainer {
   width: 60%;
   display: flex;
@@ -175,6 +183,9 @@
   }
   .iconRow {
     width: 95%;
+  }
+  .iconRowLower {
+    width: 80%;
   }
   .iconButton {
     width: 40px;
