@@ -198,3 +198,19 @@
   height: 100vh;
   overflow: hidden;
 }
+
+.blogLink {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: darkslategrey;
+}
+
+.blogLink:hover {
+  background: rgb(27, 43, 43);
+}
