@@ -16,6 +16,10 @@ This project uses Bun as the default package manager, visit [bun.sh](https://bun
 
 `bun run build`
 
+To generate static markdown content
+
+`bun run contentlayer build`
+
 ## Serve Build Preview
 
 `bun run preview`
