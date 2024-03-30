@@ -22,6 +22,7 @@
     "prettier": "^2.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-pretty-code": "^0.13.1",
     "rehype-slug": "^6.0.0",
