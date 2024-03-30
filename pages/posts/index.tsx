@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { allDocs, Doc } from "contentlayer/generated";
+import styles from "@/styles/Posts.module.css";
+import { FaHome } from "react-icons/fa";
 
 function compareDatesDescending(a: Doc, b: Doc): number {
   const dateA = new Date(a.publishedDate as string);
@@ -17,12 +19,17 @@ export default function ListPage() {
 
   return (
     <div>
-      <h1>Content</h1>
+      <Link href="/" className={styles.homeIcon}>
+        <div className={styles.homeIcon}>
+          <FaHome />
+        </div>
+      </Link>
+      <h1 className={styles.title}>Blog</h1>
       {posts.map((post) => (
-        <div key={post.slug}>
-          <h2>
-            <Link href={`/${post.slug}`}>{post.title}</Link>
-          </h2>
+        <div key={post.slug} className={styles.title}>
+          <Link className={styles.postLink} href={`${post.slug}`}>
+            {post.title}
+          </Link>
         </div>
       ))}
     </div>

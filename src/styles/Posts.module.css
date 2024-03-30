@@ -1,0 +1,49 @@
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 64px;
+  padding-top: 12px;
+}
+
+.postLink {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 48px;
+  padding-top: 12px;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.postLink:visited {
+  color: inherit;
+}
+
+.homeIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 24px;
+  padding: 25px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.backIcon {
+  left: 48px;
+}
+
+.markdownContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+  background-color: #ffffff95;
+  position: relative;
+  flex-direction: column;
+}
