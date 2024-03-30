@@ -1,12 +1,16 @@
 import { Doc } from "contentlayer/generated";
+import { getMDXComponent } from "next-contentlayer/hooks";
+import "@/styles/Posts.module.css";
 
 export default function Post({ doc }: { doc: Doc }) {
-  return (
-    <article>
-      <h1>{doc.title}</h1>
-      <div>{doc.description}</div>
+  const MdxContent = getMDXComponent(doc.body.code);
 
-      <div dangerouslySetInnerHTML={{ __html: doc.body.raw }} />
-    </article>
+  return (
+    <div>
+      <h1>{doc.title}</h1>
+      <section>
+        <MdxContent />
+      </section>
+    </div>
   );
 }
