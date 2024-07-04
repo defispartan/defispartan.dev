@@ -1,7 +1,7 @@
 .hometext {
   color: white;
   font-size: 48px;
-  font-family: "FolkPro", monospace;
+  font-family: "BerkeleyMono", Helvetica, sans-serif;
   padding-left: 7px;
   line-height: 1;
 }
@@ -19,7 +19,7 @@
   color: white;
   font-size: 24px;
   padding: 10px;
-  font-family: "FolkPro", monospace;
+  font-family: "BerkeleyMono", Helvetica, sans-serif;
 }
 
 .content {
@@ -48,7 +48,7 @@
   left: 12px;
   color: white;
   font-size: 20px;
-  font-family: "FolkPro", monospace;
+  font-family: "BerkeleyMono", Helvetica, sans-serif;
 }
 
 .buttons {
