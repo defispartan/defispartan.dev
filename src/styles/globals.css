@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "BerkeleyMono";
+  src: url("/BerkeleyMono-Italic.woff2") format("woff2"),
+    url("/BerkeleyMono-Italic.woff") format("woff"),
+    url("/BerkeleyMono-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BerkeleyMono";
+  src: url("/BerkeleyMono-Bold.woff2") format("woff2"),
+    url("/BerkeleyMono-Bold.woff") format("woff"),
+    url("/BerkeleyMono-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BerkeleyMono";
+  src: url("/BerkeleyMono-BoldItalic.woff2") format("woff2"),
+    url("/BerkeleyMono-BoldItalic.woff") format("woff"),
+    url("/BerkeleyMono-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BerkeleyMono";
+  src: url("/BerkeleyMono-Regular.woff2") format("woff2"),
+    url("/BerkeleyMono-Regular.woff") format("woff"),
+    url("/BerkeleyMono-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -32,12 +68,4 @@ ul {
 img {
   max-width: 100%;
   height: auto;
-}
-
-@font-face {
-  font-family: "FolkPro";
-  src: url("/FolkPro.woff2") format("woff2"),
-    url("/FolkPro.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
 }
