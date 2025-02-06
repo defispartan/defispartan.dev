@@ -241,6 +241,9 @@
   .galleryContainer {
     width: 90%;
   }
+  .rowText {
+    margin-top: 14rem;
+  }
 }
 
 .cover {
