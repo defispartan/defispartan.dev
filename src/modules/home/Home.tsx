@@ -2,8 +2,11 @@ import React from "react";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import TextWriter from "./components/TextWriter";
-import ButtonRow from "./components/ButtonRow";
+import SocialRow from "./components/SocialRow";
+import MusicRow from "./components/MusicRow";
 import Gallery from "./components/Gallery";
+import MessageRow from "./components/MessageRow";
+import CodeRow from "./components/CodeRow";
 
 const Home = () => {
   const placeholderSvg =
@@ -24,7 +27,10 @@ const Home = () => {
 
       <div className={styles.rightpanel}>
         <TextWriter />
-        <ButtonRow />
+        <CodeRow />
+        <SocialRow />
+        <MusicRow />
+        <MessageRow />
         {/*       <Gallery /> */}
       </div>
 
