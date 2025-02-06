@@ -119,16 +119,50 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
-  margin-top: 3rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .iconRowLower {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60%;
-  margin-top: 3rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.iconRowSolo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.iconRowSoloCode {
+  justify-content: center;
+  width: 15%;
+}
+
+.top {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topIcon {
+  width: 12px;
+  height: 12px;
 }
 
 .galleryContainer {
@@ -187,6 +221,12 @@
   .iconRowLower {
     width: 80%;
   }
+  .iconRowSolo { 
+    width: 33%;
+  }
+  .iconRowSoloCode { 
+    width: 25%;
+  }
   .iconButton {
     width: 40px;
     height: 40px;
@@ -208,4 +248,21 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+}
+
+.rowText {
+  color: white;
+  font-size: 20px;
+  font-family: "BerkeleyMono", Helvetica, sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.socialWrapper {
+  align-items: center;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
 }
